@@ -6,14 +6,24 @@ function greet() {
     return "Hello, World!";
 }
 // Convert to arrow function:
+const greet = () => {
+    return "Hello, World!";
+}
 
+const greet = () => "Hello, World!";
 
 // Problem 2
 function sayGoodbye() {
     console.log("Goodbye!");
 }
+
 // Convert to arrow function:
 
+const sayGoodbye = () => {
+    console.log("Goodbye!");
+};
+
+const sayGoodbye= () => console.log("Goodbye!");
 
 // Problem 3
 function getCurrentYear() {
@@ -22,13 +32,21 @@ function getCurrentYear() {
 // Convert to arrow function:
 const getCurrentYear = () => new Date().getFullYear();
 
+const getCurrentYear = () => {
+    return new Date().getFullYear();
+}
+
 // Problem 4
 function printMessage() {
     console.log("Welcome to JavaScript!");
 }
+
 // Convert to arrow function:
 const printMessage = () => "Welcome to JavaScript!";
 
+const printMessage = () => {
+    console.log("Welcome to JavaScript!");
+}
 
 // Problem 5
 function getPi() {
@@ -36,6 +54,11 @@ function getPi() {
 }
 // Convert to arrow function:
 
+const getPi = () => 3.14159;
+
+const getPi = () => {
+    return 3.14159;
+}
 
 // Problem 6
 function showAlert() {
@@ -43,6 +66,11 @@ function showAlert() {
 }
 // Convert to arrow function:
 
+const showAlert = () {
+    alert("This is an alert!");
+}
+
+const showAlert = () => alert("This is an alert!");
 
 // Problem 7
 function getRandomNumber() {
@@ -50,6 +78,11 @@ function getRandomNumber() {
 }
 // Convert to arrow function:
 
+const getRandomNumber = () => {
+    return Math.random();
+}
+
+const getRandomNumber = () => Math.random();
 
 // Problem 8
 function displayDate() {
@@ -57,6 +90,11 @@ function displayDate() {
 }
 // Convert to arrow function:
 
+const displayDate = () => {
+    console.log(new Date());
+}
+
+const displayDate = () => console.log(new Date());
 
 // Problem 9
 function getTrue() {
@@ -64,6 +102,11 @@ function getTrue() {
 }
 // Convert to arrow function:
 
+const getTrue = () => true;
+
+const getTrue = () => {
+    return true;
+}
 
 // Problem 10
 function logInfo() {
@@ -71,3 +114,8 @@ function logInfo() {
 }
 // Convert to arrow function:
 
+const logInfo = () => {
+    console.log("Information logged");
+}
+
+const logInfo = () => console.log("Information logged");

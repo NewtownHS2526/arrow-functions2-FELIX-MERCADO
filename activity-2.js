@@ -7,6 +7,9 @@ function greet(name) {
 }
 // Convert to arrow function:
 
+const greet = (name) => {
+    return "Hello, " + name + "!";
+}
 
 // Problem 2
 function square(number) {
@@ -14,6 +17,9 @@ function square(number) {
 }
 // Convert to arrow function:
 
+const square = (number) => {
+    return number * number;
+}
 
 // Problem 3
 function double(value) {
@@ -21,6 +27,9 @@ function double(value) {
 }
 // Convert to arrow function:
 
+const double = (value) => {
+    return value * 2;
+}
 
 // Problem 4
 function isEven(num) {
@@ -28,6 +37,9 @@ function isEven(num) {
 }
 // Convert to arrow function:
 
+const isEven = (num) => {
+    return num % 2 === 0;
+}
 
 // Problem 5
 function capitalize(str) {
@@ -35,6 +47,9 @@ function capitalize(str) {
 }
 // Convert to arrow function:
 
+const capitalize = (str) => {
+    return str.toUpperCase();
+}
 
 // Problem 6
 function getLength(text) {
@@ -42,6 +57,9 @@ function getLength(text) {
 }
 // Convert to arrow function:
 
+const getLength = (text) => {
+    return text.length;
+}
 
 // Problem 7
 function addOne(x) {
@@ -49,6 +67,9 @@ function addOne(x) {
 }
 // Convert to arrow function:
 
+const addOne = (x) => {
+    return x + 1;
+}
 
 // Problem 8
 function isPositive(n) {
@@ -56,6 +77,9 @@ function isPositive(n) {
 }
 // Convert to arrow function:
 
+const isPositive = (n) => {
+    return n > 0;
+}
 
 // Problem 9
 function reverseString(s) {
@@ -63,6 +87,9 @@ function reverseString(s) {
 }
 // Convert to arrow function:
 
+const reverseString = (s) => {
+    return s.split("").reverse().join("");
+}
 
 // Problem 10
 function getType(value) {
@@ -70,3 +97,6 @@ function getType(value) {
 }
 // Convert to arrow function:
 
+const getType = (value) => {
+    return typeof value;
+}

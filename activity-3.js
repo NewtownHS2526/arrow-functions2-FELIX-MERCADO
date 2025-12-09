@@ -7,6 +7,9 @@ function add(a, b) {
 }
 // Convert to arrow function:
 
+const add = (a, b) => {
+    return a + b;
+}
 
 // Problem 2
 function multiply(x, y) {
@@ -14,6 +17,9 @@ function multiply(x, y) {
 }
 // Convert to arrow function:
 
+const multiply = (x, y) => {
+    return x * y;
+}
 
 // Problem 3
 function subtract(num1, num2) {
@@ -21,6 +27,9 @@ function subtract(num1, num2) {
 }
 // Convert to arrow function:
 
+const subtract = (num1, num2) => {
+    return num1 - num2;
+}
 
 // Problem 4
 function divide(dividend, divisor) {
@@ -28,6 +37,9 @@ function divide(dividend, divisor) {
 }
 // Convert to arrow function:
 
+const divide = (dividend, divisor) => {
+    return dividend / divisor;
+}
 
 // Problem 5
 function greet(firstName, lastName) {
