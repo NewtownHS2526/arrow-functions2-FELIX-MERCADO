@@ -66,7 +66,7 @@ function showAlert() {
 }
 // Convert to arrow function:
 
-const showAlert = () {
+const showAlert = () => {
     alert("This is an alert!");
 }
 

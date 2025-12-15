@@ -47,6 +47,9 @@ function greet(firstName, lastName) {
 }
 // Convert to arrow function:
 
+const greet = (firstName, lastName) => {
+    return "Hello, " + firstName + " " + lastName;
+}
 
 // Problem 6
 function findMax(a, b) {
@@ -54,6 +57,9 @@ function findMax(a, b) {
 }
 // Convert to arrow function:
 
+const findMax = (a, b) => {
+    return a > b ? a : b;
+}
 
 // Problem 7
 function findMin(x, y) {
@@ -64,6 +70,12 @@ function findMin(x, y) {
 }
 // Convert to arrow function:
 
+const findMin = (x, y) => {
+    if (x < y) {
+        return x;
+    }
+    return y;
+}
 
 // Problem 8
 function concatenate(str1, str2) {
@@ -71,6 +83,9 @@ function concatenate(str1, str2) {
 }
 // Convert to arrow function:
 
+const concatenate = (str1, str2) => {
+    return str1 + str2;
+}
 
 // Problem 9
 function power(base, exponent) {
@@ -78,6 +93,9 @@ function power(base, exponent) {
 }
 // Convert to arrow function:
 
+const power = (base, exponent) => {
+    return Math.pow(base, exponent);
+}
 
 // Problem 10
 function calculateArea(length, width) {
@@ -85,3 +103,6 @@ function calculateArea(length, width) {
 }
 // Convert to arrow function:
 
+const calculateArea = (length, width) =>{
+    return length * width;
+}
